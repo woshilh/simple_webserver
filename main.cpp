@@ -49,7 +49,7 @@ int main(int argc,char **argv)
         return 1;
     }
     const char *ip = argv[1];
-    int port = atoi(atgv[2]);
+    int port = atoi(argv[2]);
 
     addsig(SIGPIPE,SIG_IGN);
 
@@ -67,7 +67,7 @@ int main(int argc,char **argv)
 
     int listenfd = socket(PF_INET,SOCK_STREAM,0);
     assert(listenfd >=0);
-    struct linger temp = {1,0};
+    struct linger tmp = {1,0};
     setsockopt(listenfd,SOL_SOCKET,SO_LINGER,&tmp,sizeof(tmp));
 
     int ret  =0;
@@ -77,10 +77,10 @@ int main(int argc,char **argv)
     inet_pton(AF_INET,ip,&address.sin_addr);
     address.sin_port = htons(port);
 
-    ret = bind (listenfd,(struct*) &address,sizeof(address));
+    ret = bind (listenfd,(struct sockaddr*) &address,sizeof(address));
     assert(ret >=0);
 
-    ret = listen(listen,5);
+    ret = listen(listenfd,5);
     assert(ret >=0);
     epoll_event events[MAX_EVENT_NUMBER];
 
@@ -91,20 +91,20 @@ int main(int argc,char **argv)
 
     while(true)
     {
-        int number = epoll_wait(epollfd,events,MAX_EVENT_NUMBER,-1)
+        int number = epoll_wait(epollfd,events,MAX_EVENT_NUMBER,-1);
         if((number <0 ) && (errno != EINTR))
         {
             printf("epoll error\n");
             break;
         }
-        for(int i=0;i<number,++i)
+        for(int i=0;i<number;++i)
         {
             int sockfd = events[i].data.fd;
             if(sockfd == listenfd)
             {
                 struct sockaddr_in client;
-                socklen_t client_len = sizeof(client_address);
-                int connfd = accept(listenfd, (struct*)&client,&client_len);
+                socklen_t client_len = sizeof(client);
+                int connfd = accept(listenfd, (struct sockaddr*)&client,&client_len);
                 if(connfd <0)
                 {
                     printf("errno if :%d\n",errno);
@@ -126,7 +126,7 @@ int main(int argc,char **argv)
             {
                 if(users[sockfd].read())
                 {
-                    pool ->append(users,sockfd);
+                    pool ->append(users + sockfd);
                 }
                 else
                 {

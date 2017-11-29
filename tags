@@ -1,0 +1,313 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$	tags	/^CHECK_STATE	http_conn.h	\/^        enum CHECK_STATE{$\/;"	g	class:http_conn	access:public$/;"	m	class:__anon1::__anon2	file:	access:private
+$	tags	/^HTTP_CODE	http_conn.h	\/^        enum HTTP_CODE{$\/;"	g	class:http_conn	access:public$/;"	m	class:__anon1::__anon2::__anon3	file:	access:private
+$	tags	/^LINE_STATUS	http_conn.h	\/^        enum LINE_STATUS{$\/;"	g	class:http_conn	access:public$/;"	m	class:__anon1::__anon2::__anon3::__anon4	file:	access:private
+$	tags	/^METHOD	http_conn.h	\/^        enum METHOD {$\/;"	g	class:http_conn	access:public$/;"	m	class:__anon1	file:	access:private
+$	tags	/^get_line	http_conn.h	\/^        char * get_line(){$\/;"	f	class:http_conn	access:private	signature:()$/;"	m	class:__anon1::__anon2::__anon3::__anon4::__anon7	file:	access:private
+$	tags	/^http_conn	http_conn.h	\/^        http_conn(){}$\/;"	f	class:http_conn	access:public	signature:()$/;"	m	class:__anon1::__anon2::__anon3::__anon4	typeref:class:__anon1::__anon2::__anon3::__anon4::__anon5	file:	access:private
+$	tags	/^~http_conn	http_conn.h	\/^        ~http_conn(){}$\/;"	f	class:http_conn	access:public	signature:()$/;"	m	class:__anon1::__anon2::__anon3::__anon4	typeref:class:__anon1::__anon2::__anon3::__anon4::__anon6	file:	access:private
+BAD_REQUEST	http_conn.h	/^            NO_REQUEST,GET_REQUEST,BAD_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+CHECK_STATE	http_conn.h	/^        enum CHECK_STATE{$/;"	g	class:http_conn	access:public
+CHECK_STATE_CONTENT	http_conn.h	/^            CHECK_STATE_CONTENT$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_HEADER	http_conn.h	/^            CHECK_STATE_HEADER,$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_REQUESTLINE	http_conn.h	/^            CHECK_STATE_REQUESTLINE = 0,$/;"	e	enum:http_conn::CHECK_STATE
+CLOSED_CONNECTION	http_conn.h	/^            INTERNAL_ERROR,CLOSED_CONNECTION$/;"	e	enum:http_conn::HTTP_CODE
+CONNECT	http_conn.h	/^                ,TRACE,OPTIONS,CONNECT,PATCH$/;"	e	enum:http_conn::METHOD
+DELETE	http_conn.h	/^            GET = 0,POST,HEAD,PUT,DELETE$/;"	e	enum:http_conn::METHOD
+FILENAME_LEN	http_conn.h	/^        static const int FILENAME_LEN = 200;$/;"	m	class:http_conn	access:public
+FILE_REQUEST	http_conn.h	/^            NO_RESOURSE,FORBIDDEN_REQUEST, FILE_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+FORBIDDEN_REQUEST	http_conn.h	/^            NO_RESOURSE,FORBIDDEN_REQUEST, FILE_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+GET	http_conn.h	/^            GET = 0,POST,HEAD,PUT,DELETE$/;"	e	enum:http_conn::METHOD
+GET_REQUEST	http_conn.h	/^            NO_REQUEST,GET_REQUEST,BAD_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+HEAD	http_conn.h	/^            GET = 0,POST,HEAD,PUT,DELETE$/;"	e	enum:http_conn::METHOD
+HTTPCONNECTION_H	http_conn.h	2;"	d
+HTTP_CODE	http_conn.h	/^        enum HTTP_CODE{$/;"	g	class:http_conn	access:public
+INTERNAL_ERROR	http_conn.h	/^            INTERNAL_ERROR,CLOSED_CONNECTION$/;"	e	enum:http_conn::HTTP_CODE
+LINE_BAD	http_conn.h	/^            LINE_OK = 0,LINE_BAD,LINE_OPEN$/;"	e	enum:http_conn::LINE_STATUS
+LINE_OK	http_conn.h	/^            LINE_OK = 0,LINE_BAD,LINE_OPEN$/;"	e	enum:http_conn::LINE_STATUS
+LINE_OPEN	http_conn.h	/^            LINE_OK = 0,LINE_BAD,LINE_OPEN$/;"	e	enum:http_conn::LINE_STATUS
+LINE_STATUS	http_conn.h	/^        enum LINE_STATUS{$/;"	g	class:http_conn	access:public
+LOCKER_h	locker.h	2;"	d
+MAX_EVENT_NUMBER	main.cpp	18;"	d	file:
+MAX_FD	main.cpp	17;"	d	file:
+METHOD	http_conn.h	/^        enum METHOD {$/;"	g	class:http_conn	access:public
+NO_REQUEST	http_conn.h	/^            NO_REQUEST,GET_REQUEST,BAD_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+NO_RESOURSE	http_conn.h	/^            NO_RESOURSE,FORBIDDEN_REQUEST, FILE_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+OPTIONS	http_conn.h	/^                ,TRACE,OPTIONS,CONNECT,PATCH$/;"	e	enum:http_conn::METHOD
+PATCH	http_conn.h	/^                ,TRACE,OPTIONS,CONNECT,PATCH$/;"	e	enum:http_conn::METHOD
+POST	http_conn.h	/^            GET = 0,POST,HEAD,PUT,DELETE$/;"	e	enum:http_conn::METHOD
+PUT	http_conn.h	/^            GET = 0,POST,HEAD,PUT,DELETE$/;"	e	enum:http_conn::METHOD
+READ_BUFFER_SIZE	http_conn.h	/^        static const int READ_BUFFER_SIZE = 2048;$/;"	m	class:http_conn	access:public
+THREADPOOL_H	threadpool.h	2;"	d
+TRACE	http_conn.h	/^                ,TRACE,OPTIONS,CONNECT,PATCH$/;"	e	enum:http_conn::METHOD
+WRITE_BUFFER_SIZE	http_conn.h	/^        static const int WRITE_BUFFER_SIZE = 1024;$/;"	m	class:http_conn	access:public
+__anon1::$	tags	/^METHOD	http_conn.h	\/^        enum METHOD {$\/;"	g	class:http_conn	access:public$/;"	m	class:__anon1	file:	access:private
+__anon1::__anon2::$	tags	/^CHECK_STATE	http_conn.h	\/^        enum CHECK_STATE{$\/;"	g	class:http_conn	access:public$/;"	m	class:__anon1::__anon2	file:	access:private
+__anon1::__anon2::__anon3::$	tags	/^HTTP_CODE	http_conn.h	\/^        enum HTTP_CODE{$\/;"	g	class:http_conn	access:public$/;"	m	class:__anon1::__anon2::__anon3	file:	access:private
+__anon1::__anon2::__anon3::__anon4::$	tags	/^LINE_STATUS	http_conn.h	\/^        enum LINE_STATUS{$\/;"	g	class:http_conn	access:public$/;"	m	class:__anon1::__anon2::__anon3::__anon4	file:	access:private
+__anon1::__anon2::__anon3::__anon4::$	tags	/^http_conn	http_conn.h	\/^        http_conn(){}$\/;"	f	class:http_conn	access:public	signature:()$/;"	m	class:__anon1::__anon2::__anon3::__anon4	typeref:class:__anon1::__anon2::__anon3::__anon4::__anon5	file:	access:private
+__anon1::__anon2::__anon3::__anon4::$	tags	/^~http_conn	http_conn.h	\/^        ~http_conn(){}$\/;"	f	class:http_conn	access:public	signature:()$/;"	m	class:__anon1::__anon2::__anon3::__anon4	typeref:class:__anon1::__anon2::__anon3::__anon4::__anon6	file:	access:private
+__anon1::__anon2::__anon3::__anon4::__anon7::$	tags	/^get_line	http_conn.h	\/^        char * get_line(){$\/;"	f	class:http_conn	access:private	signature:()$/;"	m	class:__anon1::__anon2::__anon3::__anon4::__anon7	file:	access:private
+add_blank_line	http_conn.cpp	/^bool http_conn::add_blank_line()$/;"	f	class:http_conn	signature:()
+add_blank_line	http_conn.h	/^        bool add_blank_line();$/;"	p	class:http_conn	access:private	signature:()
+add_content	http_conn.cpp	/^bool http_conn::add_content(const char*content)$/;"	f	class:http_conn	signature:(const char*content)
+add_content	http_conn.h	/^        bool add_content(const char* content);$/;"	p	class:http_conn	access:private	signature:(const char* content)
+add_content_length	http_conn.cpp	/^bool http_conn::add_content_length(int content_len)$/;"	f	class:http_conn	signature:(int content_len)
+add_content_length	http_conn.h	/^        bool add_content_length(int content_length);$/;"	p	class:http_conn	access:private	signature:(int content_length)
+add_headers	http_conn.cpp	/^bool http_conn::add_headers(int content_len)$/;"	f	class:http_conn	signature:(int content_len)
+add_headers	http_conn.h	/^        bool add_headers(int content_length);$/;"	p	class:http_conn	access:private	signature:(int content_length)
+add_linger	http_conn.cpp	/^bool http_conn::add_linger()$/;"	f	class:http_conn	signature:()
+add_linger	http_conn.h	/^        bool add_linger();$/;"	p	class:http_conn	access:private	signature:()
+add_response	http_conn.cpp	/^bool http_conn::add_response(const char * format,...)$/;"	f	class:http_conn	signature:(const char * format,...)
+add_response	http_conn.h	/^        bool add_response(const char * format, ... );$/;"	p	class:http_conn	access:private	signature:(const char * format, ... )
+add_status_line	http_conn.cpp	/^bool http_conn::add_status_line(int status,const char * title)$/;"	f	class:http_conn	signature:(int status,const char * title)
+add_status_line	http_conn.h	/^        bool add_status_line(int status ,const char *title);$/;"	p	class:http_conn	access:private	signature:(int status ,const char *title)
+addfd	http_conn.cpp	/^void addfd(int epollfd,int fd,bool one_shot)$/;"	f	signature:(int epollfd,int fd,bool one_shot)
+addfd	main.cpp	/^extern int addfd(int epollfd ,int fd,bool one_shot);$/;"	p	file:	signature:(int epollfd ,int fd,bool one_shot)
+addsig	main.cpp	/^void addsig(int sig,void(handler)(int) ,bool restart = true)$/;"	f	signature:(int sig,void(handler)(int) ,bool restart = true)
+append	threadpool.h	/^        bool append(T* request);$/;"	p	class:threadpool	access:public	signature:(T* request)
+append	threadpool.h	/^bool threadpool<T>::append(T* request)$/;"	f	class:threadpool	signature:(T* request)
+close_conn	http_conn.cpp	/^void http_conn::close_conn(bool real_close)$/;"	f	class:http_conn	signature:(bool real_close)
+close_conn	http_conn.h	/^        void close_conn(bool real_close = true);$/;"	p	class:http_conn	access:public	signature:(bool real_close = true)
+cond	locker.h	/^        cond()$/;"	f	class:cond	access:public	signature:()
+cond	locker.h	/^class cond$/;"	c
+cond::cond	locker.h	/^        cond()$/;"	f	class:cond	access:public	signature:()
+cond::m_cond	locker.h	/^        pthread_cond_t m_cond;$/;"	m	class:cond	access:private
+cond::m_mutex	locker.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:cond	access:private
+cond::signal	locker.h	/^        bool signal()$/;"	f	class:cond	access:public	signature:()
+cond::wait	locker.h	/^        bool wait()$/;"	f	class:cond	access:public	signature:()
+do_request	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::do_request()$/;"	f	class:http_conn	signature:()
+do_request	http_conn.h	/^        HTTP_CODE do_request();$/;"	p	class:http_conn	access:private	signature:()
+doc_root	http_conn.cpp	/^const char * doc_root = "\/var\/www\/html";$/;"	v
+error_400_form	http_conn.cpp	/^const char * error_400_form = "Your request has bad syntax or error";$/;"	v
+error_400_title	http_conn.cpp	/^const char * error_400_title = "Bad Request";$/;"	v
+error_403_form	http_conn.cpp	/^const char * error_403_form = "You don't have permission to get file from this server\\n";$/;"	v
+error_403_title	http_conn.cpp	/^const char * error_403_title = "Forbidden";$/;"	v
+error_404_form	http_conn.cpp	/^const char * error_404_form = "The requested file was not found on this server\\n";$/;"	v
+error_404_title	http_conn.cpp	/^const char * error_404_title = "Not Found";$/;"	v
+error_500_form	http_conn.cpp	/^const char * error_500_form = "There was an unusual problem serving the requested file.\\n";$/;"	v
+error_500_title	http_conn.cpp	/^const char * error_500_title = "Internal Error";$/;"	v
+format	tags	/^!_TAG_FILE_FORMAT	2	\/extended format; --format=1 will not append ;" to lines\/$/;"	v
+get_line	http_conn.h	/^        char * get_line(){$/;"	f	class:http_conn	access:private	signature:()
+http_conn	http_conn.h	/^        http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+http_conn	http_conn.h	/^class http_conn$/;"	c
+http_conn::BAD_REQUEST	http_conn.h	/^            NO_REQUEST,GET_REQUEST,BAD_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::CHECK_STATE	http_conn.h	/^        enum CHECK_STATE{$/;"	g	class:http_conn	access:public
+http_conn::CHECK_STATE_CONTENT	http_conn.h	/^            CHECK_STATE_CONTENT$/;"	e	enum:http_conn::CHECK_STATE
+http_conn::CHECK_STATE_HEADER	http_conn.h	/^            CHECK_STATE_HEADER,$/;"	e	enum:http_conn::CHECK_STATE
+http_conn::CHECK_STATE_REQUESTLINE	http_conn.h	/^            CHECK_STATE_REQUESTLINE = 0,$/;"	e	enum:http_conn::CHECK_STATE
+http_conn::CLOSED_CONNECTION	http_conn.h	/^            INTERNAL_ERROR,CLOSED_CONNECTION$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::CONNECT	http_conn.h	/^                ,TRACE,OPTIONS,CONNECT,PATCH$/;"	e	enum:http_conn::METHOD
+http_conn::DELETE	http_conn.h	/^            GET = 0,POST,HEAD,PUT,DELETE$/;"	e	enum:http_conn::METHOD
+http_conn::FILENAME_LEN	http_conn.h	/^        static const int FILENAME_LEN = 200;$/;"	m	class:http_conn	access:public
+http_conn::FILE_REQUEST	http_conn.h	/^            NO_RESOURSE,FORBIDDEN_REQUEST, FILE_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::FORBIDDEN_REQUEST	http_conn.h	/^            NO_RESOURSE,FORBIDDEN_REQUEST, FILE_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::GET	http_conn.h	/^            GET = 0,POST,HEAD,PUT,DELETE$/;"	e	enum:http_conn::METHOD
+http_conn::GET_REQUEST	http_conn.h	/^            NO_REQUEST,GET_REQUEST,BAD_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::HEAD	http_conn.h	/^            GET = 0,POST,HEAD,PUT,DELETE$/;"	e	enum:http_conn::METHOD
+http_conn::HTTP_CODE	http_conn.h	/^        enum HTTP_CODE{$/;"	g	class:http_conn	access:public
+http_conn::INTERNAL_ERROR	http_conn.h	/^            INTERNAL_ERROR,CLOSED_CONNECTION$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::LINE_BAD	http_conn.h	/^            LINE_OK = 0,LINE_BAD,LINE_OPEN$/;"	e	enum:http_conn::LINE_STATUS
+http_conn::LINE_OK	http_conn.h	/^            LINE_OK = 0,LINE_BAD,LINE_OPEN$/;"	e	enum:http_conn::LINE_STATUS
+http_conn::LINE_OPEN	http_conn.h	/^            LINE_OK = 0,LINE_BAD,LINE_OPEN$/;"	e	enum:http_conn::LINE_STATUS
+http_conn::LINE_STATUS	http_conn.h	/^        enum LINE_STATUS{$/;"	g	class:http_conn	access:public
+http_conn::METHOD	http_conn.h	/^        enum METHOD {$/;"	g	class:http_conn	access:public
+http_conn::NO_REQUEST	http_conn.h	/^            NO_REQUEST,GET_REQUEST,BAD_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::NO_RESOURSE	http_conn.h	/^            NO_RESOURSE,FORBIDDEN_REQUEST, FILE_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+http_conn::OPTIONS	http_conn.h	/^                ,TRACE,OPTIONS,CONNECT,PATCH$/;"	e	enum:http_conn::METHOD
+http_conn::PATCH	http_conn.h	/^                ,TRACE,OPTIONS,CONNECT,PATCH$/;"	e	enum:http_conn::METHOD
+http_conn::POST	http_conn.h	/^            GET = 0,POST,HEAD,PUT,DELETE$/;"	e	enum:http_conn::METHOD
+http_conn::PUT	http_conn.h	/^            GET = 0,POST,HEAD,PUT,DELETE$/;"	e	enum:http_conn::METHOD
+http_conn::READ_BUFFER_SIZE	http_conn.h	/^        static const int READ_BUFFER_SIZE = 2048;$/;"	m	class:http_conn	access:public
+http_conn::TRACE	http_conn.h	/^                ,TRACE,OPTIONS,CONNECT,PATCH$/;"	e	enum:http_conn::METHOD
+http_conn::WRITE_BUFFER_SIZE	http_conn.h	/^        static const int WRITE_BUFFER_SIZE = 1024;$/;"	m	class:http_conn	access:public
+http_conn::add_blank_line	http_conn.cpp	/^bool http_conn::add_blank_line()$/;"	f	class:http_conn	signature:()
+http_conn::add_blank_line	http_conn.h	/^        bool add_blank_line();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::add_content	http_conn.cpp	/^bool http_conn::add_content(const char*content)$/;"	f	class:http_conn	signature:(const char*content)
+http_conn::add_content	http_conn.h	/^        bool add_content(const char* content);$/;"	p	class:http_conn	access:private	signature:(const char* content)
+http_conn::add_content_length	http_conn.cpp	/^bool http_conn::add_content_length(int content_len)$/;"	f	class:http_conn	signature:(int content_len)
+http_conn::add_content_length	http_conn.h	/^        bool add_content_length(int content_length);$/;"	p	class:http_conn	access:private	signature:(int content_length)
+http_conn::add_headers	http_conn.cpp	/^bool http_conn::add_headers(int content_len)$/;"	f	class:http_conn	signature:(int content_len)
+http_conn::add_headers	http_conn.h	/^        bool add_headers(int content_length);$/;"	p	class:http_conn	access:private	signature:(int content_length)
+http_conn::add_linger	http_conn.cpp	/^bool http_conn::add_linger()$/;"	f	class:http_conn	signature:()
+http_conn::add_linger	http_conn.h	/^        bool add_linger();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::add_response	http_conn.cpp	/^bool http_conn::add_response(const char * format,...)$/;"	f	class:http_conn	signature:(const char * format,...)
+http_conn::add_response	http_conn.h	/^        bool add_response(const char * format, ... );$/;"	p	class:http_conn	access:private	signature:(const char * format, ... )
+http_conn::add_status_line	http_conn.cpp	/^bool http_conn::add_status_line(int status,const char * title)$/;"	f	class:http_conn	signature:(int status,const char * title)
+http_conn::add_status_line	http_conn.h	/^        bool add_status_line(int status ,const char *title);$/;"	p	class:http_conn	access:private	signature:(int status ,const char *title)
+http_conn::close_conn	http_conn.cpp	/^void http_conn::close_conn(bool real_close)$/;"	f	class:http_conn	signature:(bool real_close)
+http_conn::close_conn	http_conn.h	/^        void close_conn(bool real_close = true);$/;"	p	class:http_conn	access:public	signature:(bool real_close = true)
+http_conn::do_request	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::do_request()$/;"	f	class:http_conn	signature:()
+http_conn::do_request	http_conn.h	/^        HTTP_CODE do_request();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::get_line	http_conn.h	/^        char * get_line(){$/;"	f	class:http_conn	access:private	signature:()
+http_conn::http_conn	http_conn.h	/^        http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+http_conn::init	http_conn.cpp	/^void http_conn::init()$/;"	f	class:http_conn	signature:()
+http_conn::init	http_conn.cpp	/^void http_conn::init(int sockfd, const sockaddr_in &addr)$/;"	f	class:http_conn	signature:(int sockfd, const sockaddr_in &addr)
+http_conn::init	http_conn.h	/^        void init();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::init	http_conn.h	/^        void init(int sockfd,const sockaddr_in & addr);$/;"	p	class:http_conn	access:public	signature:(int sockfd,const sockaddr_in & addr)
+http_conn::m_address	http_conn.h	/^        sockaddr_in m_address;$/;"	m	class:http_conn	access:private
+http_conn::m_check_state	http_conn.h	/^        CHECK_STATE m_check_state;$/;"	m	class:http_conn	access:private
+http_conn::m_checked_idx	http_conn.h	/^        int m_checked_idx;$/;"	m	class:http_conn	access:private
+http_conn::m_content_length	http_conn.h	/^        int m_content_length;$/;"	m	class:http_conn	access:private
+http_conn::m_epollfd	http_conn.cpp	/^int http_conn::m_epollfd = -1;$/;"	m	class:http_conn	file:
+http_conn::m_epollfd	http_conn.h	/^        static int m_epollfd;        $/;"	m	class:http_conn	access:public
+http_conn::m_file_address	http_conn.h	/^        char * m_file_address;$/;"	m	class:http_conn	access:private
+http_conn::m_file_stat	http_conn.h	/^        struct stat m_file_stat;$/;"	m	class:http_conn	typeref:struct:http_conn::stat	access:private
+http_conn::m_host	http_conn.h	/^        char *m_host;$/;"	m	class:http_conn	access:private
+http_conn::m_iv	http_conn.h	/^        struct iovec m_iv[2];$/;"	m	class:http_conn	typeref:struct:http_conn::iovec	access:private
+http_conn::m_iv_count	http_conn.h	/^        int m_iv_count;$/;"	m	class:http_conn	access:private
+http_conn::m_linger	http_conn.h	/^        bool m_linger;$/;"	m	class:http_conn	access:private
+http_conn::m_method	http_conn.h	/^        METHOD m_method;$/;"	m	class:http_conn	access:private
+http_conn::m_read_buf	http_conn.h	/^        char m_read_buf[READ_BUFFER_SIZE];$/;"	m	class:http_conn	access:private
+http_conn::m_read_idx	http_conn.h	/^        int m_read_idx;$/;"	m	class:http_conn	access:private
+http_conn::m_real_file	http_conn.h	/^        char m_real_file[FILENAME_LEN];$/;"	m	class:http_conn	access:private
+http_conn::m_sockfd	http_conn.h	/^        int m_sockfd;$/;"	m	class:http_conn	access:private
+http_conn::m_start_line	http_conn.h	/^        int m_start_line;$/;"	m	class:http_conn	access:private
+http_conn::m_url	http_conn.h	/^        char *m_url;$/;"	m	class:http_conn	access:private
+http_conn::m_user_count	http_conn.cpp	/^int http_conn::m_user_count = 0;$/;"	m	class:http_conn	file:
+http_conn::m_user_count	http_conn.h	/^        static int m_user_count;$/;"	m	class:http_conn	access:public
+http_conn::m_version	http_conn.h	/^        char *m_version;$/;"	m	class:http_conn	access:private
+http_conn::m_write_buf	http_conn.h	/^        char m_write_buf[WRITE_BUFFER_SIZE];$/;"	m	class:http_conn	access:private
+http_conn::m_write_idx	http_conn.h	/^        int m_write_idx;$/;"	m	class:http_conn	access:private
+http_conn::parse_content	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_content(char * text)$/;"	f	class:http_conn	signature:(char * text)
+http_conn::parse_content	http_conn.h	/^        HTTP_CODE parse_content(char *);$/;"	p	class:http_conn	access:private	signature:(char *)
+http_conn::parse_headers	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_headers(char * text)$/;"	f	class:http_conn	signature:(char * text)
+http_conn::parse_headers	http_conn.h	/^        HTTP_CODE parse_headers(char *);$/;"	p	class:http_conn	access:private	signature:(char *)
+http_conn::parse_line	http_conn.cpp	/^http_conn::LINE_STATUS http_conn::parse_line()$/;"	f	class:http_conn	signature:()
+http_conn::parse_line	http_conn.h	/^        LINE_STATUS parse_line();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::parse_request_line	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_request_line(char * text)$/;"	f	class:http_conn	signature:(char * text)
+http_conn::parse_request_line	http_conn.h	/^        HTTP_CODE parse_request_line(char text);$/;"	p	class:http_conn	access:private	signature:(char text)
+http_conn::process	http_conn.cpp	/^void http_conn::process()$/;"	f	class:http_conn	signature:()
+http_conn::process	http_conn.h	/^        void process();$/;"	p	class:http_conn	access:public	signature:()
+http_conn::process_read	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::process_read()$/;"	f	class:http_conn	signature:()
+http_conn::process_read	http_conn.h	/^        HTTP_CODE process_read();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::process_write	http_conn.cpp	/^bool http_conn::process_write(HTTP_CODE ret)$/;"	f	class:http_conn	signature:(HTTP_CODE ret)
+http_conn::process_write	http_conn.h	/^        bool process_write(HTTP_CODE ret);$/;"	p	class:http_conn	access:private	signature:(HTTP_CODE ret)
+http_conn::read	http_conn.cpp	/^bool http_conn::read()$/;"	f	class:http_conn	signature:()
+http_conn::read	http_conn.h	/^        bool read();$/;"	p	class:http_conn	access:public	signature:()
+http_conn::unmap	http_conn.cpp	/^void http_conn::unmap()$/;"	f	class:http_conn	signature:()
+http_conn::unmap	http_conn.h	/^        void unmap();$/;"	p	class:http_conn	access:private	signature:()
+http_conn::write	http_conn.cpp	/^bool http_conn::write()$/;"	f	class:http_conn	signature:()
+http_conn::write	http_conn.h	/^        bool write();$/;"	p	class:http_conn	access:public	signature:()
+http_conn::~http_conn	http_conn.h	/^        ~http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+init	http_conn.cpp	/^void http_conn::init()$/;"	f	class:http_conn	signature:()
+init	http_conn.cpp	/^void http_conn::init(int sockfd, const sockaddr_in &addr)$/;"	f	class:http_conn	signature:(int sockfd, const sockaddr_in &addr)
+init	http_conn.h	/^        void init();$/;"	p	class:http_conn	access:private	signature:()
+init	http_conn.h	/^        void init(int sockfd,const sockaddr_in & addr);$/;"	p	class:http_conn	access:public	signature:(int sockfd,const sockaddr_in & addr)
+lock	locker.h	/^        bool lock()$/;"	f	class:locker	access:public	signature:()
+locker	locker.h	/^        locker()$/;"	f	class:locker	access:public	signature:()
+locker	locker.h	/^class locker$/;"	c
+locker::lock	locker.h	/^        bool lock()$/;"	f	class:locker	access:public	signature:()
+locker::locker	locker.h	/^        locker()$/;"	f	class:locker	access:public	signature:()
+locker::m_mutex	locker.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:locker	access:private
+locker::unlock	locker.h	/^        bool unlock()$/;"	f	class:locker	access:public	signature:()
+locker::~locker	locker.h	/^        ~locker()$/;"	f	class:locker	access:public	signature:()
+m_address	http_conn.h	/^        sockaddr_in m_address;$/;"	m	class:http_conn	access:private
+m_check_state	http_conn.h	/^        CHECK_STATE m_check_state;$/;"	m	class:http_conn	access:private
+m_checked_idx	http_conn.h	/^        int m_checked_idx;$/;"	m	class:http_conn	access:private
+m_cond	locker.h	/^        pthread_cond_t m_cond;$/;"	m	class:cond	access:private
+m_content_length	http_conn.h	/^        int m_content_length;$/;"	m	class:http_conn	access:private
+m_epollfd	http_conn.cpp	/^int http_conn::m_epollfd = -1;$/;"	m	class:http_conn	file:
+m_epollfd	http_conn.h	/^        static int m_epollfd;        $/;"	m	class:http_conn	access:public
+m_file_address	http_conn.h	/^        char * m_file_address;$/;"	m	class:http_conn	access:private
+m_file_stat	http_conn.h	/^        struct stat m_file_stat;$/;"	m	class:http_conn	typeref:struct:http_conn::stat	access:private
+m_host	http_conn.h	/^        char *m_host;$/;"	m	class:http_conn	access:private
+m_iv	http_conn.h	/^        struct iovec m_iv[2];$/;"	m	class:http_conn	typeref:struct:http_conn::iovec	access:private
+m_iv_count	http_conn.h	/^        int m_iv_count;$/;"	m	class:http_conn	access:private
+m_linger	http_conn.h	/^        bool m_linger;$/;"	m	class:http_conn	access:private
+m_max_requests	threadpool.h	/^        int m_max_requests;$/;"	m	class:threadpool	access:private
+m_method	http_conn.h	/^        METHOD m_method;$/;"	m	class:http_conn	access:private
+m_mutex	locker.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:cond	access:private
+m_mutex	locker.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:locker	access:private
+m_queuelocker	threadpool.h	/^        locker m_queuelocker;$/;"	m	class:threadpool	access:private
+m_queuestat	threadpool.h	/^        sem m_queuestat;$/;"	m	class:threadpool	access:private
+m_read_buf	http_conn.h	/^        char m_read_buf[READ_BUFFER_SIZE];$/;"	m	class:http_conn	access:private
+m_read_idx	http_conn.h	/^        int m_read_idx;$/;"	m	class:http_conn	access:private
+m_real_file	http_conn.h	/^        char m_real_file[FILENAME_LEN];$/;"	m	class:http_conn	access:private
+m_sem	locker.h	/^        sem_t m_sem;$/;"	m	class:sem	access:private
+m_sockfd	http_conn.h	/^        int m_sockfd;$/;"	m	class:http_conn	access:private
+m_start_line	http_conn.h	/^        int m_start_line;$/;"	m	class:http_conn	access:private
+m_stop	threadpool.h	/^        bool m_stop;$/;"	m	class:threadpool	access:private
+m_thread_number	threadpool.h	/^        int m_thread_number;$/;"	m	class:threadpool	access:private
+m_threads	threadpool.h	/^        pthread_t * m_threads;$/;"	m	class:threadpool	access:private
+m_url	http_conn.h	/^        char *m_url;$/;"	m	class:http_conn	access:private
+m_user_count	http_conn.cpp	/^int http_conn::m_user_count = 0;$/;"	m	class:http_conn	file:
+m_user_count	http_conn.h	/^        static int m_user_count;$/;"	m	class:http_conn	access:public
+m_version	http_conn.h	/^        char *m_version;$/;"	m	class:http_conn	access:private
+m_workqueue	threadpool.h	/^        std::list<T* >  m_workqueue;$/;"	m	class:threadpool	access:private
+m_write_buf	http_conn.h	/^        char m_write_buf[WRITE_BUFFER_SIZE];$/;"	m	class:http_conn	access:private
+m_write_idx	http_conn.h	/^        int m_write_idx;$/;"	m	class:http_conn	access:private
+main	main.cpp	/^int main(int argc,char **argv)$/;"	f	signature:(int argc,char **argv)
+modfd	http_conn.cpp	/^void modfd(int epollfd, int fd,int ev)$/;"	f	signature:(int epollfd, int fd,int ev)
+ok_200_title	http_conn.cpp	/^const char * ok_200_title = "OK";$/;"	v
+parse_content	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_content(char * text)$/;"	f	class:http_conn	signature:(char * text)
+parse_content	http_conn.h	/^        HTTP_CODE parse_content(char *);$/;"	p	class:http_conn	access:private	signature:(char *)
+parse_headers	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_headers(char * text)$/;"	f	class:http_conn	signature:(char * text)
+parse_headers	http_conn.h	/^        HTTP_CODE parse_headers(char *);$/;"	p	class:http_conn	access:private	signature:(char *)
+parse_line	http_conn.cpp	/^http_conn::LINE_STATUS http_conn::parse_line()$/;"	f	class:http_conn	signature:()
+parse_line	http_conn.h	/^        LINE_STATUS parse_line();$/;"	p	class:http_conn	access:private	signature:()
+parse_request_line	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_request_line(char * text)$/;"	f	class:http_conn	signature:(char * text)
+parse_request_line	http_conn.h	/^        HTTP_CODE parse_request_line(char text);$/;"	p	class:http_conn	access:private	signature:(char text)
+post	locker.h	/^        bool post()$/;"	f	class:sem	access:public	signature:()
+process	http_conn.cpp	/^void http_conn::process()$/;"	f	class:http_conn	signature:()
+process	http_conn.h	/^        void process();$/;"	p	class:http_conn	access:public	signature:()
+process_read	http_conn.cpp	/^http_conn::HTTP_CODE http_conn::process_read()$/;"	f	class:http_conn	signature:()
+process_read	http_conn.h	/^        HTTP_CODE process_read();$/;"	p	class:http_conn	access:private	signature:()
+process_write	http_conn.cpp	/^bool http_conn::process_write(HTTP_CODE ret)$/;"	f	class:http_conn	signature:(HTTP_CODE ret)
+process_write	http_conn.h	/^        bool process_write(HTTP_CODE ret);$/;"	p	class:http_conn	access:private	signature:(HTTP_CODE ret)
+read	http_conn.cpp	/^bool http_conn::read()$/;"	f	class:http_conn	signature:()
+read	http_conn.h	/^        bool read();$/;"	p	class:http_conn	access:public	signature:()
+removefd	http_conn.cpp	/^void removefd(int epollfd int fd)$/;"	f	signature:(int epollfd int fd)
+removefd	main.cpp	/^extern int removefd(int epollfd,int fd);$/;"	p	file:	signature:(int epollfd,int fd)
+removefd	tags	/^removefd	main.cpp	\/^extern int removefd(int epollfd,int fd);$\/;"	p	file:	signature:(int epollfd,int fd)$/;"	p	file:	signature:(int epollfd,int fd)
+run	threadpool.h	/^        void run();$/;"	p	class:threadpool	access:private	signature:()
+run	threadpool.h	/^void threadpool<T>::run()$/;"	f	class:threadpool	signature:()
+sem	locker.h	/^        sem()$/;"	f	class:sem	access:public	signature:()
+sem	locker.h	/^class sem$/;"	c
+sem::m_sem	locker.h	/^        sem_t m_sem;$/;"	m	class:sem	access:private
+sem::post	locker.h	/^        bool post()$/;"	f	class:sem	access:public	signature:()
+sem::sem	locker.h	/^        sem()$/;"	f	class:sem	access:public	signature:()
+sem::wait	locker.h	/^        bool wait()$/;"	f	class:sem	access:public	signature:()
+sem::~sem	locker.h	/^        ~sem()$/;"	f	class:sem	access:public	signature:()
+setnonblocking	http_conn.cpp	/^int setnonblocking(int fd)$/;"	f	signature:(int fd)
+show_error	main.cpp	/^void show_error(int connfd,const char * info)$/;"	f	signature:(int connfd,const char * info)
+signal	locker.h	/^        bool signal()$/;"	f	class:cond	access:public	signature:()
+threadpool	threadpool.h	/^        threadpool(int thread_number = 8,int max_requests = 10000);$/;"	p	class:threadpool	access:public	signature:(int thread_number = 8,int max_requests = 10000)
+threadpool	threadpool.h	/^class threadpool$/;"	c
+threadpool	threadpool.h	/^threadpool<T>::threadpool(int thread_number,int max_requests)$/;"	f	class:threadpool	signature:(int thread_number,int max_requests)
+threadpool::append	threadpool.h	/^        bool append(T* request);$/;"	p	class:threadpool	access:public	signature:(T* request)
+threadpool::append	threadpool.h	/^bool threadpool<T>::append(T* request)$/;"	f	class:threadpool	signature:(T* request)
+threadpool::m_max_requests	threadpool.h	/^        int m_max_requests;$/;"	m	class:threadpool	access:private
+threadpool::m_queuelocker	threadpool.h	/^        locker m_queuelocker;$/;"	m	class:threadpool	access:private
+threadpool::m_queuestat	threadpool.h	/^        sem m_queuestat;$/;"	m	class:threadpool	access:private
+threadpool::m_stop	threadpool.h	/^        bool m_stop;$/;"	m	class:threadpool	access:private
+threadpool::m_thread_number	threadpool.h	/^        int m_thread_number;$/;"	m	class:threadpool	access:private
+threadpool::m_threads	threadpool.h	/^        pthread_t * m_threads;$/;"	m	class:threadpool	access:private
+threadpool::m_workqueue	threadpool.h	/^        std::list<T* >  m_workqueue;$/;"	m	class:threadpool	access:private
+threadpool::run	threadpool.h	/^        void run();$/;"	p	class:threadpool	access:private	signature:()
+threadpool::run	threadpool.h	/^void threadpool<T>::run()$/;"	f	class:threadpool	signature:()
+threadpool::threadpool	threadpool.h	/^        threadpool(int thread_number = 8,int max_requests = 10000);$/;"	p	class:threadpool	access:public	signature:(int thread_number = 8,int max_requests = 10000)
+threadpool::threadpool	threadpool.h	/^threadpool<T>::threadpool(int thread_number,int max_requests)$/;"	f	class:threadpool	signature:(int thread_number,int max_requests)
+threadpool::worker	threadpool.h	/^        static void *worker(void * arg);$/;"	p	class:threadpool	access:private	signature:(void * arg)
+threadpool::worker	threadpool.h	/^void threadpool<T>::worker(void *arg)$/;"	f	class:threadpool	signature:(void *arg)
+threadpool::~threadpool	threadpool.h	/^        ~threadpool();$/;"	p	class:threadpool	access:public	signature:()
+threadpool::~threadpool	threadpool.h	/^threadpool<T>::~threadpool()$/;"	f	class:threadpool	signature:()
+unlock	locker.h	/^        bool unlock()$/;"	f	class:locker	access:public	signature:()
+unmap	http_conn.cpp	/^void http_conn::unmap()$/;"	f	class:http_conn	signature:()
+unmap	http_conn.h	/^        void unmap();$/;"	p	class:http_conn	access:private	signature:()
+wait	locker.h	/^        bool wait()$/;"	f	class:cond	access:public	signature:()
+wait	locker.h	/^        bool wait()$/;"	f	class:sem	access:public	signature:()
+worker	threadpool.h	/^        static void *worker(void * arg);$/;"	p	class:threadpool	access:private	signature:(void * arg)
+worker	threadpool.h	/^void threadpool<T>::worker(void *arg)$/;"	f	class:threadpool	signature:(void *arg)
+write	http_conn.cpp	/^bool http_conn::write()$/;"	f	class:http_conn	signature:()
+write	http_conn.h	/^        bool write();$/;"	p	class:http_conn	access:public	signature:()
+~http_conn	http_conn.h	/^        ~http_conn(){}$/;"	f	class:http_conn	access:public	signature:()
+~locker	locker.h	/^        ~locker()$/;"	f	class:locker	access:public	signature:()
+~sem	locker.h	/^        ~sem()$/;"	f	class:sem	access:public	signature:()
+~threadpool	threadpool.h	/^        ~threadpool();$/;"	p	class:threadpool	access:public	signature:()
+~threadpool	threadpool.h	/^threadpool<T>::~threadpool()$/;"	f	class:threadpool	signature:()

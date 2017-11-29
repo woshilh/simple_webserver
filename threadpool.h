@@ -80,7 +80,7 @@ template<typename T>
 bool threadpool<T>::append(T* request)
 {
     m_queuelocker.lock();
-    if(m_workqueue.size() > m_mam_requests)
+    if(m_workqueue.size() > m_max_requests)
     {
         m_queuelocker.unlock();
         return false;
@@ -92,7 +92,7 @@ bool threadpool<T>::append(T* request)
 }
 
 template<typename T>
-void threadpool<T>::worker(void *arg)
+void *threadpool<T>::worker(void *arg)
 {
     threadpool * pool = (threadpool*) arg;
     pool ->run();
@@ -112,7 +112,7 @@ void threadpool<T>::run()
             continue;
         }
         T * request = m_workqueue.front();
-        m_woekqueue.pop_front();
+        m_workqueue.pop_front();
         m_queuelocker.unlock();
         if(! request)
         {

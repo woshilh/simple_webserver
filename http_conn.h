@@ -16,6 +16,7 @@
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/mman.h>
 #include <stdarg.h>
 #include <errno.h>
 
@@ -37,7 +38,7 @@ class http_conn
         };
         enum HTTP_CODE{
             NO_REQUEST,GET_REQUEST,BAD_REQUEST,
-            NO_RESOURSE,FORBIDDEN_REQUEST, FILE_REQUEST,
+            NO_RESOURCE,FORBIDDEN_REQUEST, FILE_REQUEST,
             INTERNAL_ERROR,CLOSED_CONNECTION
         };
 
@@ -61,7 +62,7 @@ class http_conn
         HTTP_CODE process_read();
         bool process_write(HTTP_CODE ret);
 
-        HTTP_CODE parse_request_line(char text);
+        HTTP_CODE parse_request_line(char *text);
         HTTP_CODE parse_headers(char *);
         HTTP_CODE parse_content(char *);
         HTTP_CODE do_request();

@@ -1,5 +1,5 @@
 #ifndef LOCKER_H
-#define LOCKER_h
+#define LOCKER_H
 
 #include <exception>
 #include <pthread.h>
@@ -70,14 +70,14 @@ class cond
             {
                 throw std::exception();
             }
-            if(pthread_cond_init(&m_cond,NULL) ! =0)
+            if(pthread_cond_init(&m_cond,NULL) !=0)
             {
                 pthread_mutex_destroy(&m_mutex);
                 throw std::exception();
             }
 
         }
-        ~cond
+        ~cond()
         {
             pthread_mutex_destroy(&m_mutex);
             pthread_cond_destroy(&m_cond);

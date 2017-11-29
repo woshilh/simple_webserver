@@ -28,16 +28,16 @@ void addfd(int epollfd,int fd,bool one_shot)
     setnonblocking(fd);
 }
 
-void removefd(int epollfd int fd)
+void removefd(int epollfd ,int fd)
 {
-    epoll_ctl(epoll_fd,EPOLL_CTL_DEL,fd,0);
+    epoll_ctl(epollfd,EPOLL_CTL_DEL,fd,0);
     close(fd);
 }
 
 void modfd(int epollfd, int fd,int ev)
 {
     epoll_event event;
-    event.data = fd;
+    event.data.fd = fd;
     event.events = ev | EPOLLET | EPOLLONESHOT |EPOLLRDHUP;
     epoll_ctl(epollfd,EPOLL_CTL_MOD,fd,&event);
 }
@@ -204,7 +204,7 @@ http_conn::HTTP_CODE http_conn::parse_headers(char * text)
             m_linger = true;
         }
     }
-    else if(strncasecmp(text,"Content-Length:" 15) == 0)
+    else if(strncasecmp(text,"Content-Length:" ,15) == 0)
     {
         text += 15;
         text += strspn(text," \t");
@@ -249,7 +249,7 @@ http_conn::HTTP_CODE http_conn::process_read()
         {
             case CHECK_STATE_REQUESTLINE:
                 {
-                    ret = parse_requset_line(text);
+                    ret = parse_request_line(text);
                     if(ret == BAD_REQUEST)
                     {
                         return BAD_REQUEST;
@@ -279,7 +279,7 @@ http_conn::HTTP_CODE http_conn::process_read()
                     line_status = LINE_OPEN;
                     break;
                 }
-            default
+            default :
             {
                 return INTERNAL_ERROR;
             }
@@ -290,7 +290,7 @@ http_conn::HTTP_CODE http_conn::process_read()
 
 http_conn::HTTP_CODE http_conn::do_request()
 {
-    strcpy(m_real_life,doc_root);
+    strcpy(m_real_file,doc_root);
     int len = strlen(doc_root);
     strncpy(m_real_file + len,m_url,FILENAME_LEN - len -1);
     if(stat(m_real_file,&m_file_stat) <0)
